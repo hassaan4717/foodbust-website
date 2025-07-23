@@ -1,0 +1,22 @@
+{
+  "name": "xstate-server",
+  "version": "1.0.0",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "dev": "nodemon server.js"
+  },
+  "dependencies": {
+    "@xstate/fsm": "^2.1.0",
+    "@xstate/vue": "^5.0.0",
+    "axios": "^1.10.0",
+    "cors": "^2.8.5",
+    "express": "^5.1.0",
+    "interpret": "^3.1.1",
+    "node-fetch": "^3.3.2",
+    "xstate": "^4.38.3"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.10"
+  }
+}

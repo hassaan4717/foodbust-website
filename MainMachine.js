@@ -1431,7 +1431,4 @@ const userPendingOrderMachine = createMachine(
   }
 );
 
-
-
-
 module.exports = { loginMachine, signupMachine, homeMachine, foodsMachine, productMachine, addToBasketMachine, getBasketMachine ,showBasketMachine,deleteBasketMachine,orderMachine, pendingOrderMachine, processOrderMachine , usersMachine, deleteProductMachine, addProductMachine, updateProductMachine, userPendingOrderMachine };
